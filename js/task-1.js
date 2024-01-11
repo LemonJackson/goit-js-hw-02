@@ -1,3 +1,4 @@
+'use strict';
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
     if (quantity * pricePerDroid <= customerCredits) {
         return `You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!`
